@@ -163,7 +163,7 @@
     padding: 2.5%;
   }
   
-  /* FORM */
+  /* Form */
   .form-label,
   .form-input,
   .form-textarea {
@@ -183,8 +183,19 @@
     border: 2px solid var(--light-dark);
     border-radius: var(--border-radius);
   }
+
+  /* Footer */
+  .footer {
+    /* position: fixed; */
+    background: #38302e;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    bottom: 0;
+}
   
-  /* HEIGHT / WIDTH UTILS */
+  /* Height & Width Utils */
   .min-100-vh {
     min-height: 100vh;
   }
@@ -193,13 +204,13 @@
     min-width: 100vw;
   }
   
-  /* FONT UTILS */
+  /* Font Utils */
   .text-uppercase {
     text-transform: uppercase;
   }
   
   
-  /* FLEX CONTENT */
+  /* Flex Content */
   .flex-row {
     display: flex;
     flex-wrap: wrap;
