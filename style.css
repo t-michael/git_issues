@@ -185,14 +185,20 @@
   }
 
   /* Footer */
-  .footer {
+  footer {
     /* position: fixed; */
     background: #38302e;
+    position: fixed;
+    width: 100%;
     text-align: center;
     font-size: 18px;
     color: black;
     padding: 10px;
     bottom: 0;
+}
+
+footer > a {
+  color: #ccdad1;
 }
   
   /* Height & Width Utils */
